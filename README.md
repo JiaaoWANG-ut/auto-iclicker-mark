@@ -1,7 +1,7 @@
 # auto-iclicker-mark
 Backgroud:
 
-I was a TA for general chemistry class, my job is to mark the attended student to a sheet that the Dept sheet. But there are thousands of student (with their name and Edu ID), which makes me a huge amount time to check, and search and fill the mark symbol one-by-one. So I developed a script for automatically fill the mark symbol for the sheet.
+I was a TA for general chemistry class, my job is to mark the attended student to a sheet that the Dept sheet. But there are thousands of students (with their names and Edu IDs), which costed me a huge amount time to check, and search and fill the marks symbol one-by-one. So I developed a script for automatically fill the mark symbol for the sheet.
 First you have to use some screen-text recognizer (Umi-OCR) to make these name on the picture convert to text, and compare these text to the database (Dept sheet), if they can be found in the database, the name will be recorded as "attended" to a new file "student_sheet_new". With this coding, you can modify it very easily and use it for a large job.
 
 Feature:
